@@ -9,6 +9,5 @@ jobs:
   build:
     name: Push_to_main
     runs-on: ubuntu-latest
-      run:
-       - echo "::warning :: Um codigo foi submetido a branch Master"
+      run: echo "::warning :: Um codigo foi submetido a branch Master"
     
