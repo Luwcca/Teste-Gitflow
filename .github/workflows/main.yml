@@ -1,0 +1,11 @@
+name: CI/CD 
+
+on:
+  push: 
+    branches:
+    - main
+
+jobs: 
+  build:
+    name: Push_to_main
+    runs-on: ubuntu-latest
