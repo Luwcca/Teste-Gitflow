@@ -9,3 +9,7 @@ jobs:
   build:
     name: Push_to_main
     runs-on: ubuntu-latest
+    steps:
+      run:
+        echo: "::warning :: Um codigo foi submetido a branch Master"
+    
