@@ -11,6 +11,6 @@ jobs:
     steps:
       -uses: actions/checkout@v2
       -uses: dependabot/action@v2
-      with:
-        repo-token: ${{secrets.GITHUB_TOKEN }}
+    with:
+      repo-token: ${{secrets.GITHUB_TOKEN }}
  
