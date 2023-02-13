@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: dependabot/action@v2      
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.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 }}
  
